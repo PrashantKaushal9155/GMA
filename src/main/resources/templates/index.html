@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>GMA</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #45a049;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 60%;
+        }
+        a.button {
+            background-color: #52a555;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 5px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div class="logo">GMA</div>
+
+    <ul>
+        <li><a href="add-grocery">Add Item</a></li>
+        <li><a href="manage-groceries">Manage Items</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <h1>Welcome to the Grocery Management Application</h1>
+    <p>
+        Manage your grocery items efficiently with our user-friendly application. You can easily add, update,
+        and manage all of your grocery items from one place. Whether you want to keep track of your stock or
+        update existing items, we’ve got you covered. Enjoy a seamless and hassle-free experience.
+    </p>
+
+</div>
+</body>
+</html>
